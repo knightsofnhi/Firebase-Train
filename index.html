@@ -52,26 +52,29 @@
           <div class="card-body">
             <form>
               <div class="form-group">
+
                 <label for="trainName">Train Name</label>
                 <input type="train" class="form-control" id="trainName" aria-describedby="trainHelp">
                 <small id="trainHelp" class="form-text text-muted"></small>
               </div>
+
+
               <div class="form-group">
                 <label for="inputDestination">Destination</label>
                 <input type="destination" class="form-control" id="destination"></div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="firstTime">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="Frequency">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
+
+              <div class="form-group">
+                <label for="inputTime">First Train Time</label>
+                <input type="firstTime" class="form-control" id="firstTime"></div>
+
+              <div class="form-group">
+                <label for="inputFrequency">Frequency</label>
+                <input type="frequency" class="form-control" id="frequency"></div>
+
               <button type="submit" id="save" class="btn btn-primary">Submit</button>
 
             </form>
           </div>
-          Content
         </div>
       </div>
 
@@ -81,9 +84,9 @@
 
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
       integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
-    
-      
-       <!-- // on submit get the inputs
+
+
+    <!-- // on submit get the inputs
         // save the inputs to the firebase// at the end, get the prediction working> -->
 
 
