@@ -1,0 +1,10 @@
+.jumbotron {
+    background-image: url("https://media.giphy.com/media/TlK63EDww4g4tXUd0gE/giphy.gif");
+    background-size: contain;
+    background-color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: black; 
+    box-shadow: black;
+  }
