@@ -1,13 +1,28 @@
 .jumbotron {
     background-image: url("https://media.giphy.com/media/TlK63EDww4g4tXUd0gE/giphy.gif");
-    background-size: contain;
-    background-size: 50%;
-    background-color: azure;
+    background-size: 100% 100%;
     font-family: 'Monofett', cursive;
     font-size: 75px;
     color:black;
+    background-repeat: no-repeat;
   }
 
   h1 {
       font-display: 200px;
   }
+
+ .card-header {
+     color:black;
+     font-size: 25px;
+     font-variant-position: auto;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+ }
+
+ .card-header p {
+    text-align: center;     
+ }
+
+ .card {
+     color: black; 
+ }
