@@ -1,4 +1,4 @@
-# Firebase-Train
+# Train Schedule
 
 Enter your train information!
 
