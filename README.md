@@ -1,5 +1,5 @@
-# Train Schedule
+# Train Time
 
 Enter your train information!
 
-https://knightsofnhi.github.io/Train-Schedule/
+https://knightsofnhi.github.io/Train-Time/
